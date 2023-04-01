@@ -15319,7 +15319,7 @@ var tae = M$((nae, nI) => {
                     BASE_URL: "https://bundles.jackbox.tv/main/@connect/",
                     MODE: "qa",
                     DEV: !0,
-                    PROD: !0
+                    PROD: !1
                 }.TV_SLACK_FEEDBACK;
             if (!s) return;
             const a = {
