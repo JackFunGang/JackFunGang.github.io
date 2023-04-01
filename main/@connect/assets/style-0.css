@@ -6090,7 +6090,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 50px;
     width: 100%;
     padding: 12px 15px;
-    background: #4254F4;
+    background: #000000;
     user-select: none;
     color: #fff;
     z-index: 100
@@ -6149,7 +6149,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     width: 100%;
     height: calc(100% - 50px);
     padding: 0 15px;
-    background-color: #3241ce;
+    background-color: #000000;
     overflow-y: auto;
     z-index: 99;
     transition: height .45s
