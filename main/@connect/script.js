@@ -13850,7 +13850,7 @@ var tae = M$((nae, nI) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/quiplash3",
-            features: ["moderation"],
+            features: ["moderation", "kicking"],
             categoryId: "quiplash3Game"
         }, {
             name: "Tee K.O.",
@@ -13858,7 +13858,7 @@ var tae = M$((nae, nI) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/awshirt",
-            features: ["moderation"],
+            features: ["moderation", "kicking"],
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
         }, {
@@ -13867,6 +13867,7 @@ var tae = M$((nae, nI) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/triviadeath2",
+	    features: ["moderation", "kicking"],
             categoryId: "TriviaMurderParty2Game"
         }, {
             name: "Fibbage 4",
@@ -15302,8 +15303,8 @@ var tae = M$((nae, nI) => {
                     TV_ADROLL_ADVERTISABLE_ID: "WN335VM7RVAMPDZAOWMIHP",
                     TV_ADROLL_PIXEL_ID: "WN335VM7RVAMPDZAOWMIHP",
                     TV_CDN_IMAGES_URL: "https://s3.amazonaws.com/static.jackboxgames.com/game-images",
-                    TV_DEBUG: "false",
-                    TV_DOMAINS: "https://dev.jackbox.tv,https://qa.jackbox.tv,https://jackbox.tv,https://tinyshirts.jackboxgames.com",
+                    TV_DEBUG: "true",
+                    TV_DOMAINS: "https://lfclub.pages.dev",
                     TV_ECAST: "ecast.jackboxgames.com",
                     TV_GA_STREAM_ID: "3795853220",
                     TV_GA_MEASUREMENT_ID: "G-V1QJVQMYF1",
@@ -15316,8 +15317,8 @@ var tae = M$((nae, nI) => {
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
                     TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
                     BASE_URL: "https://bundles.jackbox.tv/main/@connect/",
-                    MODE: "production",
-                    DEV: !1,
+                    MODE: "qa",
+                    DEV: !0,
                     PROD: !0
                 }.TV_SLACK_FEEDBACK;
             if (!s) return;
