@@ -15317,7 +15317,7 @@ var tae = M$((nae, nI) => {
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
                     TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
                     BASE_URL: "https://bundles.jackbox.tv/main/@connect/",
-                    MODE: "qa",
+                    MODE: "dev",
                     DEV: !0,
                     PROD: !1
                 }.TV_SLACK_FEEDBACK;
@@ -27604,7 +27604,7 @@ de tu lista de partidas anteriores.`,
                     }
                 },
                 shouldShowBranchOptions() {
-                    return window.tv.manifest.environment !== "production"
+                    return window.tv.manifest.environment !== "goddammitkriswherethehellarewe"
                 },
                 branchOptions() {
                     if (!this.room) return {};
