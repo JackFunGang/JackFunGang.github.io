@@ -27624,7 +27624,7 @@ de tu lista de partidas anteriores.`,
                     if (!!this.selectedBranch) return new Date(this.selectedBranch.lastUpdated).toLocaleString()
                 },
                 displayBranchType() {
-                    if (!!this.selectedBranch) return this.selectedBranch.type === "production" ? "PROD" : "DEV"
+                    if (!!this.selectedBranch) return this.selectedBranch.type === "goddammitkriswherethehellarewe" ? "PROD" : "DEV"
                 },
                 displayVersion() {
                     var e, t, r;
@@ -28958,7 +28958,7 @@ de tu lista de partidas anteriores.`,
             emits: ["pastGameWasClicked", "twitchLoginWasClicked", "twitchLogoutWasClicked"],
             computed: {
                 shouldShowPreferredBranch() {
-                    return window.tv.manifest.environment !== "production"
+                    return window.tv.manifest.environment !== "goddammitkriswherethehellarewe"
                 },
                 version() {
                     return window.tv.manifest.loader.version
