@@ -13289,10 +13289,10 @@ Url: ${Wr(t)}`), !0)
                     }
 					}
                 },
-	mods: {
+	by: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 2128516388128,
-                version: "69.42.0",
+                version: "5.32.0",
                 type: "DEV",
                 bundles: {
                     "@connect": {
@@ -13319,71 +13319,17 @@ Url: ${Wr(t)}`), !0)
                         base: "main/internal/ecast-test-client",
                         version: "5.0.0"
                     },
-                    everyday: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp7/everyday",
-                        version: "5.3.0"
-                    },
-                    "jackbox-talks": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp7/jackboxtalks",
-                        version: "5.25.0"
-                    },
-                    quiplash3: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp7/quiplash3",
-                        version: "5.18.0"
-                    },
-                    worldchamps: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp7/worldchampions",
-                        version: "5.3.0"
-                    },
-                    "quiplash3-tjsp": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/tjsp/quiplash3",
-                        version: "5.78.0"
-                    },
-                    "antique-freak": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp9/antique-freak",
-                        version: "5.91.0"
-                    },
-                    fourbage: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp9/fourbage",
-                        version: "5.92.0"
-                    },
-                    htmf: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp9/htmf",
-                        version: "5.93.0"
-                    },
-                    lineup: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp9/lineup",
-                        version: "5.83.0"
-                    },
-                    "range-game": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/pp9/range-game",
-                        version: "5.88.0"
-                    },
                     prototype: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/internal/prototype",
                         version: "5.91.0"
+                    },
+		    lieswatter: {
+                        file: "script.js",
+                        css: ["assets/style-0.css"],
+                        base: "main/pp1/lieswatter",
+                        version: "5.0.0"
                     }
                 }
             }
