@@ -13287,6 +13287,7 @@ Url: ${Wr(t)}`), !0)
                         base: "main/internal/prototype",
                         version: "5.91.0"
                     }
+					}
                 },
 	mods: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
